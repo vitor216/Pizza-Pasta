@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza & Pasta</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img src="./images/lojo.png" class="logo" alt=""/>
+            <h1 class="navbar-brand m-0 section-title">Pizza & Pasta</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-pizzaria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocao" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <Section id="sobre-a-pizzaria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide4.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide5.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide6.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide7.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide8.png" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon">
+                        <div id="text-butao">
+                            Anterior
+                        </div>
+                    </span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon">
+                        <div id="text-butao">
+                            Proximo
+                        </div>
+                    </span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="7" ></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="carousel slide" data-bs-ride="carousel" id="carousel2">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria1.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria2.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria3.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria4.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria5.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="30000">
+                                        <img src="./images/slides/pizzaria6.png" alt="">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel2" class="active" data-bs-slide-to="0" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5" ></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="6" ></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">Nos</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sit aspernatur reiciendis delectus maiores repudiandae dolorum voluptates odio soluta tempora eligendi cumque distinctio! Nulla, corporis eveniet quod neque reprehenderit molestiae!
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">Espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dicta laborum. Sit aperiam nisi sint perferendis aliquid magnam quibusdam voluptatum provident maxime. Cum temporibus possimus, numquam quidem a neque officiis?
+                            </p>
+                            <ul class="itens">
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <section id="promocao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todos os <span class="text-colored">tipos de Fome</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/promoção/promocao01.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-hearts"></i>
+                            Segunda Feira
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                        </p>
+                    </div>
+                        <div class="col-md-4">
+                            <img src="./images/promoção/promocao04.png" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-arrow-through-heart-fill"></i>
+                                Terça Feira
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                            </p>
+                        </div>
+                            <div class="col-md-4">
+                                <img src="./images/promoção/promocao03.png" alt="" class="d-block w-100 rounded mb-2">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-suit-heart"></i>
+                                    Quarta Feira
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./images/promoção/promocao05.png" alt="" class="d-block w-100 rounded mb-2">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-suit-heart-fill"></i>
+                                    Quinta Feira
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./images/promoção/promocao02.png" alt="" class="d-block w-100 rounded mb-2">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-person-hearts"></i>
+                                    Sexta Feira
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./images/promoção/promocao06.png" alt="" class="d-block w-100 rounded mb-2">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-heart-fill"></i>
+                                    Sabado
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./images/promoção/promocao07.png" alt="" class="d-block w-100 rounded mb-2">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-heart"></i>
+                                    Domingo
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est adipisci perferendis ab! Expedita debitis ipsam quam ex saepe voluptates explicabo, velit iste quidem quod, minima eos ratione libero!
+                                </p>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">Cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebida-nao-alcolicas" class=" fw-bold text-start nav-link text-colored active">Bebidas nao Alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebida-alcolicas" class=" fw-bold text-start nav-link text-colored ">Bebidas Alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class=" fw-bold text-start nav-link text-colored ">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class=" fw-bold text-start nav-link text-colored ">Pratos Pricipais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pizza" class=" fw-bold text-start nav-link text-colored ">Pizzas Salgadas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pizza2" class=" fw-bold text-start nav-link text-colored ">Pizzas Doces</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesa" class=" fw-bold text-start nav-link text-colored ">Sobremesas</button>
+                        </nav>
+                    </aside>
+                        <aside class="col-md-10">
+                            <div class="tab-content">
+                                    <div class="tab-pane active" id="bebida-nao-alcolicas">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola2.jpg" alt="Coca-cala Zero"/>
+                                                    <h5 class="text-colored fw-bold mt-2">Coca-cola Zero Lata</h5>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam enim eum reprehenderit deserunt.
+                                                    </p>
+                                                    <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola600.jpg" alt="coca-cola 600ml"/>
+                                                <h5 class="text-colored fw-bold mt-2">Coca-cala 600ml</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola3.jpg" alt="coca-cola lata"/>
+                                                <h5 class="text-colored fw-bold mt-2">Coca-cola lata</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/garana01.png" alt="Guarana Antartica lata"/>
+                                                <h5 class="text-colored fw-bold mt-2">Guarana Antartica lata</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/suco.jpg" alt="suco de laranja"/>
+                                                <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/suco2.jpg" alt="suco de Abacaxi"/>
+                                                <h5 class="text-colored fw-bold mt-2">Suco de Abacaxi</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/suco3.jpg" alt="suco de maracula"/>
+                                                <h5 class="text-colored fw-bold mt-2">Suco de Maracuja</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/suco4.jpg" alt="suco de Uva"/>
+                                                <h5 class="text-colored fw-bold mt-2">Suco de Uva</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="bebida-alcolicas">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/chopp.png" alt="Chopp"/>
+                                                    <h5 class="text-colored fw-bold mt-2">Tulipa de Chopp</h5>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam enim eum reprehenderit deserunt.
+                                                    </p>
+                                                    <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/drink01.png" alt="Caipirinha"/>
+                                                <h5 class="text-colored fw-bold mt-2">Caipirinha Sabores</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/drink02.png" alt="drink com Vodka"/>
+                                                <h5 class="text-colored fw-bold mt-2">Drink com Vodca</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/drink03.png" alt="drink com gin"/>
+                                                <h5 class="text-colored fw-bold mt-2">Drink com Gin</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/stella.png" alt="stella long neck"/>
+                                                <h5 class="text-colored fw-bold mt-2">Stella Long neck</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/brahma.png" alt="brahma long neck"/>
+                                                <h5 class="text-colored fw-bold mt-2">Brahma Long Neck</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/heineken.png" alt="Heineken long neck"/>
+                                                <h5 class="text-colored fw-bold mt-2">Heineken Long Neck</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/bebidas/corona.png" alt="Corona Long Neck"/>
+                                                <h5 class="text-colored fw-bold mt-2">Corona Long Neck</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                                </p>
+                                                <div class="price">
+                                                    <strong>R$ 7,00</strong>
+                                                    </div>
+                                                    <button type="button">Adicionar ao Carrinho</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="tab-pane" id="entradas">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/entradas/entrada1.jpg" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Pasteis</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/entradas/entrada2.jpg" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Carne Seca com Aipim</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/entradas/entrada3.jpg" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Quibi</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/entradas/entrada4.jpg" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Bolinho de Feijoada</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="pratos-principais">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/file.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">File Bovino</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/filefrango.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">File de frango</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/inhoque.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Inhoque</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/prato.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">File ao Molho</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/prato2.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Escondidinho</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pratos/prato3.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Medalhao a la parmegiana</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="pizza">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza1.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Quatro Queijo</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza2.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Calabresa</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza3.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Frango com Catupiry</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza4.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Tres Porquinhos</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza5.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Portuguesa</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza6.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Caipira</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza9.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Peperoni</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza10.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Bacon</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza11.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Camarão e cream cheese</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza12.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Lombo Canadence</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="pizza2">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza7.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Banana e Canela</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza8.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Chocolate com Morango</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza13.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Chocale e M&M</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza14.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Chocolate Branco e M&M</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/pizzas/pizza15.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Chocolate Branco e Morango</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sobremesa">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/sobremesa01.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Bolo Vulcao</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/sobremesa02.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Appelpaj</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/sobremesa03.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Piscina de Brown</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/sobremesa04.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">mini taças</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/sobremesa05.png" alt=""/>
+                                            <h5 class="text-colored fw-bold mt-2">Mega Taça</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem adipisci odio quo, sed necessitatibus labore explicabo
+                                            </p>
+                                            <div class="price">
+                                                <strong>R$ 7,00</strong>
+                                                </div>
+                                                <button type="button">Adicionar ao Carrinho</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu Email:</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                                <input type="tel" id="tel" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class=" fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class=" fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class=" fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereços
+                            </h3>
+                            <p>
+                                Rua Teste exemplo nº 145, Bairro Bootstrap - São Paulo - Sp
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

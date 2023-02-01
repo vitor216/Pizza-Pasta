@@ -1,0 +1,103 @@
+body{
+    font-family: roboto,sans-serif;
+}
+
+.navbar{
+    background-color: #e15f41;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #e15f41;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.carousel-item img{
+    width: 1900px;
+    height: 400px;
+}
+
+#text-butao{
+    margin-top: 50px;
+    color: #e15f41;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+#sobre-a-pizzaria,
+#cardapio{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
+}
+
+.social-links li{
+list-style: none;
+display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.carousel2 .carousel-item img{
+    width: 10px;
+}
+
+.col-md-5 img{
+    width: 500px;
+}
+
+.logo{
+    width: 100px;
+    margin-right: 5px;
+}
+
+.col-md-3 button{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: #e15f41;
+    color: #fff;
+    border: #e15f41;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+    #carousel .carousel-item img{
+        width: 100%;
+    }
+    #text-butao{
+        margin-top: 50px;
+        margin-left: -10px;
+        color: #e15f41;
+    }
+    #menu-navegacao{
+        margin-top: 3px;
+    }
+}
